@@ -5,7 +5,7 @@ class CryptocurrencyRepositoryImpl : CryptocurrencyRepository{
     // providing implementation to it
     override fun getCryptoCurrency() = listOf(
         // here we are adding images from wikipedia
-        Cryptocurrency("https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/BTC_Logo.svg/1200px-BTC_Logo.svg.png", "BitCoin"),
+        Cryptocurrency("https://logosmarcas.net/wp-content/uploads/2020/08/Bitcoin-Logo.png", "BitCoin"),
         Cryptocurrency("https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Ethereum_logo_translucent.svg/1200px-Ethereum_logo_translucent.svg.png", "Ethereum"),
         Cryptocurrency("https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Binance_logo.svg/1920px-Binance_logo.svg.png", "Binance"),
         Cryptocurrency("https://upload.wikimedia.org/wikipedia/en/d/d0/Dogecoin_Logo.png", "DogeCoin"),
